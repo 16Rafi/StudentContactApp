@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">StudentContactApp</string>
+    <string name="login_title">Login</string>
+    <string name="logo_desc">Logo</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="login_button">LOGIN</string>
+    <string name="welcome_message">Welcome, %1$s!</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="settings_title">Profile / Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="font_size">Font Size (sp)</string>
+    <string name="notifications">Notifications</string>
+    <string name="logout_button">LOGOUT</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="invalid_credentials">Invalid Username or Password</string>
+    <string name="dark_mode_status">Dark Mode: %1$b</string>
+    <string name="notifications_status">Notifications: %1$b</string>
+
+    <!-- Hands-On 2 Strings -->
+    <string name="detail_title">Detail Mahasiswa</string>
+    <string name="label_catatan">Catatan</string>
+    <string name="hint_catatan">Tulis catatan di sini...</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_muat">Muat</string>
+    <string name="status_no_note">Belum ada catatan</string>
+    <string name="status_saved">Tersimpan (%1$d bytes)</string>
+    <string name="note_saved_msg">Catatan berhasil disimpan</string>
+    <string name="note_loaded_msg">Catatan berhasil dimuat</string>
+    <string name="btn_view_all_notes">Daftar Catatan</string>
+    <string name="notes_list_title">Semua Catatan</string>
+
+    <!-- Tugas Akhir Strings -->
+    <string name="student_directory">Student Directory</string>
+    <string name="search_hint">Search name or NIM...</string>
+    <string name="add_student">Add Student</string>
+    <string name="edit_student">Edit Mahasiswa</string>
+    <string name="tambah_mahasiswa">Tambah Mahasiswa</string>
+    <string name="label_name">Nama</string>
+    <string name="label_nim">NIM</string>
+    <string name="label_prodi">Pilih Prodi</string>
+    <string name="label_email">Email</string>
+    <string name="label_semester">Semester</string>
+    <string name="btn_simpan_data">SIMPAN</string>
+    <string name="error_empty_fields">Semua data harus diisi</string>
+    <string name="msg_student_added">Data mahasiswa ditambahkan</string>
+    <string name="msg_student_updated">Data mahasiswa diperbarui</string>
+    <string name="delete_title">Hapus Data?</string>
+    <string name="delete_confirm_msg">Hapus \"%1$s\"? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="btn_hapus">Hapus</string>
+    <string name="btn_batal">Batal</string>
+    <string name="msg_student_deleted">Data dihapus</string>
+    <string name="label_home">Home</string>
+    <string name="label_notes">Notes</string>
+    <string name="label_settings">Settings</string>
+</resources>
