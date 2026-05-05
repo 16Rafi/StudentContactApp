@@ -1,6 +1,6 @@
 # StudentContactApp
 
-**Nama:** R. Rafi Yudi Pramana  
+**NAMA:** R. Rafi Yudi Pramana  
 **NIM:** F1D02310132
 
 ## Deskripsi Singkat Aplikasi
