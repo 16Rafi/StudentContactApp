@@ -20,7 +20,7 @@
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:background="@android:drawable/btn_default"
-            android:backgroundTint="#3F51B5"
+            android:backgroundTint="@color/colorPrimary"
             android:gravity="center"
             android:text="A"
             android:textColor="@android:color/white"
@@ -56,7 +56,8 @@
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_edit"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="Edit" />
+            android:contentDescription="Edit"
+            app:tint="@color/colorPrimary" />
 
         <ImageButton
             android:id="@+id/btnDelete"
@@ -64,7 +65,8 @@
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_delete"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:contentDescription="Delete" />
+            android:contentDescription="Delete"
+            app:tint="#F44336" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>

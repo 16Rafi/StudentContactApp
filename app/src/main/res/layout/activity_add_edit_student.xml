@@ -9,7 +9,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tambah Mahasiswa"
+        android:text="@string/tambah_mahasiswa"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="24dp"/>
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Nama">
+        android:hint="@string/label_name">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etName"
             android:layout_width="match_parent"
@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="NIM">
+        android:hint="@string/label_nim">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etNim"
             android:layout_width="match_parent"
@@ -41,7 +41,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pilih Prodi"
+        android:text="@string/label_prodi"
         android:layout_marginBottom="8dp"/>
     <Spinner
         android:id="@+id/spProdi"
@@ -54,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Email">
+        android:hint="@string/label_email">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
@@ -66,7 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:hint="Semester">
+        android:hint="@string/label_semester">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etSemester"
             android:layout_width="match_parent"
@@ -78,8 +78,8 @@
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SIMPAN"
-        android:backgroundTint="#3F51B5"
+        android:text="@string/btn_simpan_data"
+        android:backgroundTint="@color/colorPrimary"
         android:textColor="@android:color/white"/>
 
 </LinearLayout>
